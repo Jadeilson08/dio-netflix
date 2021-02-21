@@ -1,0 +1,39 @@
+:root{
+    --red: #c0392b;
+    --black: #060a0f;
+    --myFont: 'Roboto', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--black);
+    font-family: var(--myFont);
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container .logo {
+    color: var(--red);
+    font-size: 3rem;
+    font-weight: 700;
+    margin-left: 1vw;
+}
+
+header .container nav a {
+    text-decoration: none;
+    color: #95a5a6;
+    margin-right: 1vw;
+}
+
+header .container nav a:hover {
+    color: #fff;
+}
